@@ -1,0 +1,22 @@
+{
+  "name": "igorsiriani/abstract-factory",
+  "authors": [
+    {
+      "name": "Igor Henrique Siriani",
+      "email": "igorsiriani@gmail.com"
+    }
+  ],
+  "require": {
+    "twbs/bootstrap": "5.0.0-alpha1",
+    "components/jquery": "^3.5"
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "rm -rf public/bootstrap",
+      "cp -R vendor/twbs/bootstrap/dist public/bootstrap"
+    ]
+  },
+  "autoload": {
+    "psr-4": {"": "src/"}
+  }
+}
