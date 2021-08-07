@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "958336e1b952a3deec938474b5b7ba31",
     "packages": [
         {
             "name": "components/jquery",
             "version": "3.5.1",
+            "version_normalized": "3.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
@@ -20,6 +15,7 @@
                 "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
                 "shasum": ""
             },
+            "time": "2020-05-05T13:21:02+00:00",
             "type": "component",
             "extra": {
                 "component": {
@@ -35,6 +31,7 @@
                     ]
                 }
             },
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -53,11 +50,12 @@
                 "source": "https://github.com/jquery/jquery",
                 "wiki": "http://docs.jquery.com/"
             },
-            "time": "2020-05-05T13:21:02+00:00"
+            "install-path": "../components/jquery"
         },
         {
             "name": "twbs/bootstrap",
             "version": "v5.0.0-alpha1",
+            "version_normalized": "5.0.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
@@ -72,7 +70,9 @@
             "replace": {
                 "twitter/bootstrap": "self.version"
             },
+            "time": "2020-06-16T19:12:01+00:00",
             "type": "library",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -109,18 +109,9 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2020-06-16T19:12:01+00:00"
+            "install-path": "../twbs/bootstrap"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "twbs/bootstrap": 15
-    },
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "dev": true,
+    "dev-package-names": []
 }
