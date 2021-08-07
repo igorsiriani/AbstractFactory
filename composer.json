@@ -12,8 +12,8 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "rm -rf public/bootstrap",
-      "cp -R vendor/twbs/bootstrap/dist public/bootstrap"
+      "rm -rf www/bootstrap",
+      "cp -R vendor/twbs/bootstrap/dist www/bootstrap"
     ]
   },
   "autoload": {
