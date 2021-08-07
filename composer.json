@@ -13,8 +13,10 @@
   "scripts": {
     "post-update-cmd": [
       "rm -rf www/bootstrap",
+      "rm -rf www/vendor",
       "cp -R vendor/twbs/bootstrap/dist www/bootstrap",
-      "cp -R vendor www/vendor"
+      "cp -R vendor www/vendor",
+      "rm -rf vendor"
     ],
     "post-install-cmd": [
       "rm -rf www/bootstrap",
