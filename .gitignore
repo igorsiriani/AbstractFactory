@@ -1,4 +1,5 @@
 /vendor
 /www/bootstrap
+/www/vendor
 .idea/
 .scannerwork

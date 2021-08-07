@@ -5,6 +5,8 @@ WORKDIR /tmp/
 COPY composer.json composer.json
 COPY composer.lock composer.lock
 
+COPY . .
+
 RUN composer install \
     --ignore-platform-reqs \
     --no-interaction \
