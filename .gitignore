@@ -1,4 +1,4 @@
-/vendor
-/public/bootstrap
+/www/vendor
+/www/bootstrap
 .idea/
 .scannerwork
